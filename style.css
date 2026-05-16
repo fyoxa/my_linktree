@@ -11,7 +11,7 @@ body {
     rgb(209, 200, 204) 50%,
     rgb(185, 170, 180) 100%
   );
-  font-family: 'Comfortaa', 'Courier New', sans-serif;
+  font-family: 'Comfortaa', cursive, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +25,8 @@ body {
 }
 .info p {
   white-space: pre-line;
-  line-height: 1.5;
+  line-height: 1.6;
+  font-weight: 500;
 }
 @media (max-width: 600px) {
   .info {
@@ -33,7 +34,7 @@ body {
     max-width: 280px !important;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.5; 
+    line-height: 1.6; 
   }
 }
 .programs {
@@ -50,6 +51,7 @@ body {
     border-radius: 999px;
     padding: 6px 14px;
     font-size: 0.85rem;
+    font-weight: 700;
     transition: all 0.25s ease;
 }
 .program:hover {
@@ -65,13 +67,16 @@ body {
 .link {
     display: block;
     text-align: center;
-    padding: 12px;
-    margin: 10px 0;
+    padding: 14px;
+    margin: 12px 0;
     color: rgb(95, 80, 90);
     text-decoration: none;
     border: 2px solid rgb(170, 150, 165);
-    border-radius: 12px;
+    border-radius: 16px;
     background: rgba(255, 255, 255, 0.15);
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     transition: 0.3s;
 }
 .link:hover {
