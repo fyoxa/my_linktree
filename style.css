@@ -1,3 +1,4 @@
+@import url('https://googleapis.com');
 html, body {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ body {
     rgb(209, 200, 204) 50%,
     rgb(185, 170, 180) 100%
   );
-  font-family: sans-serif;
+  font-family: 'Comfortaa', 'Courier New', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
