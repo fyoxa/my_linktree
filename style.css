@@ -11,6 +11,7 @@ body {
     rgb(209, 200, 204) 50%,
     rgb(185, 170, 180) 100%
   );
+}
 .main-container {
   font-family: 'Comfortaa', sans-serif;
   display: flex;
