@@ -1,4 +1,6 @@
 @import url('https://googleapis.com');
+@import url('https://cdnfonts.com');
+@import url('https://onlinewebfonts.com');
 html, body {
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ body {
   );
 }
 body {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Benny Blanco', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
